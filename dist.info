@@ -11,5 +11,6 @@ url = "http://www.keplerproject.org/luasql/"
 
 depends = {
 	"lua ~> 5.1",
+	"luasql-2.3.0",
 	"libsqlite3 >= 3.5",
 }
