@@ -1,9 +1,9 @@
 --- This file is part of LuaDist project
 
-name = "luasql"
+name = "luasql-sqlite"
 version = "2.3.0"
 
-desc = "Database connectivity for Lua"
+desc = "Database connectivity for Lua - SQLite3 driver"
 author = "Roberto Ierusalimschy, André Carregal, Tomás Guisasola"
 license = "Kepler"
 maintainer = "Peter Kapec"
@@ -11,4 +11,5 @@ url = "http://www.keplerproject.org/luasql/"
 
 depends = {
 	"lua ~> 5.1",
+	"libsqlite3 >= 3.5",
 }
