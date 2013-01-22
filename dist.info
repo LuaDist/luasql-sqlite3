@@ -1,6 +1,6 @@
 --- This file is part of LuaDist project
 
-name = "luasql-sqlite"
+name = "luasql-sqlite3"
 version = "2.3.0"
 
 desc = "Database connectivity for Lua - SQLite3 driver"
